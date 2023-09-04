@@ -1,0 +1,51 @@
+html, body {
+  font-family: 'DM Sans', sans-serif;
+  background: #DDDDDD;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+@media (orientation: landscape) {
+  #header {
+    height: 8vw;
+    background: #FFFFFF;
+  }
+  #list {
+    display: flex;
+  }
+  .headertext {
+    margin: 0;
+    font-size: 3vw;
+    padding-top: 2vw;
+    padding-left: 1vw;
+  }
+  h1 {
+    font-size: 4vw;
+    padding-left: 1vw;
+    margin: 0;
+  }
+  .person {
+    background: #FFFFFF;
+    color: black;
+    width: 20%;
+    height: 60%;
+    text-align: center;
+    margin: 1vw;
+    border-radius: 1vw;
+    box-shadow: #FFFFFF 0 0 2vw;
+    transition: 0.1s;
+    cursor: pointer;
+  }
+  .person:hover {
+    background: #CCCCCC;
+    box-shadow: #AAAAAA 0 0 2vw;
+    color: white;
+  }
+  .avatar {
+    width: 100%;
+    border-radius: 1vw;
+  }
+  .button {
+    font-size: 2vw;
+  }
+}
